@@ -20,12 +20,12 @@ class BXField {
 		$this->column_name = $column_name;
 	}
 	
-	public function get_name() {
-		return $this->name;
+	public function get_field_name() {
+		return $this->field_name;
 	}
 	
-	public function get_key() {
-		return $this->key;
+	public function get_column_name() {
+		return $this->column_name;
 	}
 	
 }
